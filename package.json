@@ -1,6 +1,16 @@
 {
     "name": "MMM-Actual",
     "version": "1.0.0",
+    "license": "AGPL3",
     "description": "Display financial balances from Actual",
-    "author": "David Greene"
+    "author": "David Greene",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/trumpetx/MMM-Actual.git"
+    },
+    "keywords": [
+        "MagicMirror",
+        "Actual",
+        "Finance"
+    ]
 }

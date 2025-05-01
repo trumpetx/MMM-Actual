@@ -35,7 +35,7 @@ Modify the config/config.js file with `MMM-Actual` settings
 				// proxyDir: "/home/pi/magicmirror/modules/MMM-Actual/actual-proxy/", // If you install the proxy server somewhere else, point there instead
 				// dataDir: "/home/pi/magicmirror/modules/MMM-Actual/actual-proxy/budget", // If you want to store the budget data somewhere else, point there instead
 				// socketFile: "/tmp/actual-proxy.sock", # Customze at your own risk - must be in a writable location; file is chmod'd to ${socketPermissions} regardless of the location
-                // socketPermissions: "600" # This should not be necessary, but some running conditions may requiere a more lenient permission.  This requires u+rw (600) at a minimum (most secure)
+				// socketPermissions: "600" # This should not be necessary, but some running conditions may requiere a more lenient permission.  This requires u+rw (600) at a minimum (most secure)
 			}
 		},
 ```

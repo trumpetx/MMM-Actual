@@ -19,7 +19,8 @@ module.exports = NodeHelper.create({
 						env: {
 							...process.env,
 							NODE_TLS_REJECT_UNAUTHORIZED: 0,
-							ACTUAL_SOCK_FILE: this.config.socketFile
+							ACTUAL_SOCK_FILE: this.config.socketFile,
+                            ACTUAL_SOCK_PERMISSIONS: this.config.socketPermissions
 						}
 					});
 				prc.stdout.setEncoding('utf8');
